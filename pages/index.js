@@ -15,7 +15,7 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <h3 className="text-2xl lg:text-4xl text-center mb-12">
-          This website has been deprecated. Please visit <a href="https://ashleymullan.github.io">ashleymullan.github.io</a> for an updated version! Thank you. 😊
+          This website has been deprecated. Please visit <a href="https://ashleymullan.github.io"> <span style="color: #ff0000">ashleymullan.github.io</span></a> for an updated version! Thank you. 😊
         </h3>
         <ul className="w-full">
           {posts.map((post) => (
