@@ -14,8 +14,8 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description="This website has been deprecated. Please visit ashleymullan.github.io for an updated version! Thank you. " />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h3 className="text-3xl lg:text-5xl text-center mb-12">
-          "This website has been deprecated. Please visit" <a href="ashleymullan.github.io">ashleymullan.github.io</a> "for an updated version! Thank you. 😊"
+        <h3 className="text-2xl lg:text-4xl text-center mb-12">
+          This website has been deprecated. Please visit <a href="ashleymullan.github.io">ashleymullan.github.io</a> for an updated version! Thank you. 😊
         </h3>
         <ul className="w-full">
           {posts.map((post) => (
